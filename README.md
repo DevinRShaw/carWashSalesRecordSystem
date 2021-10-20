@@ -4,7 +4,7 @@
 In creating this system I learned about 
 Functions:
 -boolean functions for validating login and existence of data in a file
--void functions for long code for inputting and reading info that repeats itself
+-void functions for long code that deals with inputting and reading info, which occurs multiple times
 
 File Management:
 -ofstream was used to open a file for new user's login information under name username.txt
@@ -12,5 +12,5 @@ File Management:
 -ifstream was used to read the username and password in the validating login bool function
 -ifstream was used to read user's sales information once logged in
 
-string to int conversion-
+String to int conversion:
 -used stoi() function to store strings in int variables for calculation of sales percentage
